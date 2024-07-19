@@ -1,2 +1,3 @@
 # Alpha-Project
-read_me = 1
+greeting = hello_world
+
