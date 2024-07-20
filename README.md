@@ -42,9 +42,9 @@ def main(stdscr):
             alien_x = random.randint(1, sw-2)
             alien_y = 1
 
-        # Draw bomb
-        if bomb_y < sh - 1:
-            w.addch(bomb_y, bomb_x, '*')
+        # Draw fire
+        if fire_y < sh - 1:
+            w.addch(fire_y, fire_x, '*')
         else:
             bomb_x = alien_x
             bomb_y = alien_y + 1
